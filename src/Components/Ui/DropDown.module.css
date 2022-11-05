@@ -1,0 +1,23 @@
+.list {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.list li {
+    list-style: none;
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+.list li:hover {
+    
+    background-color: black;
+    color: white;
+}
+
+.list li:last-child {
+    border-bottom: 0px;
+}
